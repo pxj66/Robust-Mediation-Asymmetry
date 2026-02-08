@@ -9,3 +9,5 @@ install.packages("RMSkew_0.0.0.9000.tar.gz",
 - `extract_mediation_formula` can extract the mediation model from an R formula similar to this:   `y~x+m(med1, medi2)+covariates(cov1,cov2)`.
 - `fit_skew_mediation` fits the mediation model specified by the **mediation formula**.
 - `test_skew_mediation` test the indirect, direct, total effects.
+## Reference
+- Peng X., Wang W. W., Zhao S. L. (2026) Robust Mediation Analysis with Asymmetric Data. Submitted.
